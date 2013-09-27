@@ -1,0 +1,7 @@
+require 'straight_jacket/composite'
+require 'straight_jacket/format'
+require 'straight_jacket/equals'
+require 'straight_jacket/integer_parameter'
+require 'straight_jacket/inclusion'
+require 'straight_jacket/required_parameter'
+require 'straight_jacket/collection'
