@@ -19,6 +19,9 @@ module StraightJacket
       "expected #{actual} not to match #{request.parameters} but did"
     end
 
+    alias failure_message              failure_message_for_should
+    alias failure_message_when_negated failure_message_for_should_not
+
     def description
       "match parameters #{request.parameters}"
     end
